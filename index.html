@@ -1,10 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>Hello APP</title>
-	<p>Hello World!</p>
+	<meta charset="UTF-8">
+	<title>My Profile</title>
+	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-
+	<header>
+	<nav style="text-align:right">
+		<a href="Logout" >Logout</a>
+	</nav>
+	</header>
+	<h1>Giancarlos Corzo</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatum quos architecto inventore amet accusamus, fuga qui, facere voluptatem nobis. Suscipit cumque dolores nostrum odio tempora perspiciatis aliquam labore dolor!</p>
+	<section>
+		<h2>Experiencias</h2>
+		<div>
+			<h3>Laboratoria</h3>
+			<p>Profesor bootcamp en laboratoria</p>
+			<a target="_blank" href="http://laboratoria.la">Ver pagina Laboratoria</a>
+		</div>
+		<div>
+			<h3>UPC</h3>
+			<p>Profesor de Desarrollo Web</p>
+			<a href="http://upc.edu.pe">Ver pagina UPC</a>
+		</div>
+	</section>
+	<section>
+		<form action="">
+		<div>
+			<label for="nombre">Nombre:</label>
+			<input id="nombre" type="text">	
+		</div>
+		<div>
+			<label for="email">Email:</label>
+			<input id="email" type="text">	
+		</div>	
+		<div>
+			<label for="texto">Deja tu mensaje:</label><br>
+			<textarea name="texto" id="texto" cols="40" rows="4"></textarea>
+		</div>
+		<button type="submit">Enviar</button>
+		</form>
+	</section>
+	<script src="assets/js/app.js"></script>
 </body>
 </html>
